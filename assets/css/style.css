@@ -786,3 +786,94 @@ justify-content: center !important;
 .trans{
     transition: all 4s ease-in-out !important;
 }
+
+
+
+@media (max-width: 575px){
+    .news{
+        text-align:center !important;
+        align-content: center !important;
+        justify-content: center !important;
+    }
+
+    .news p{
+        font-size: 15px !important;
+        line-height: 35px !important;
+    }
+
+    .news h5{
+        font-size: 13px !important;
+    }
+    .imge{
+        width: 300px !important;
+        height: 200px!important;
+       align-items: center;
+    }
+
+    .navbar{
+        align-items: left !important;
+        padding-left: -40px !important;
+    }
+
+    .sect{
+        font-size: 30px !important;
+        line-height: 30px !important;
+        margin-top: 0!important;
+        margin-bottom: 20px !important;
+    }
+    .iimg{
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+.t-btn {
+	display: inline-block;
+	border: none;
+	font-size: 14px;
+	font-weight: 500;
+	min-width: 130px !important;
+	padding: 18px 15px;
+	border-radius: 50px !important;
+	text-transform: uppercase;
+	background: #fc0254;
+	color: #fff;
+	line-height: normal;
+	cursor: pointer;
+    text-align: center;
+    align-items: center !important;
+}
+.car{
+    
+    
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right: 30px !important;
+}
+
+.sub-text p{
+    font-size: 14px !important;
+    line-height: 25px;
+}
+.sub-text h2{
+    font-size: 30px !important;
+    line-height: 30px !important;
+}
+.sub-text h3{
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+    .section-titles h2{
+        font-size: 30px !important;
+        line-height: 30px !important;
+        ;
+    }
+        .sect-t{
+            font-size: 15px !important;
+            margin-top: 0px !important;
+            line-height: 30px !important;
+            ;
+}
+}
+
+
