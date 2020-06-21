@@ -790,6 +790,12 @@ justify-content: center !important;
 
 
 @media (max-width: 575px){
+    .FFW{     
+        text-align:center !important;
+        align-content: center !important;
+        justify-content: center !important;
+        background-image: url('assets/images/hero.jpg') !important;
+    }
     .news{
         text-align:center !important;
         align-content: center !important;
@@ -808,6 +814,7 @@ justify-content: center !important;
         width: 300px !important;
         height: 200px!important;
        align-items: center;
+    
     }
 
     .navbar{
@@ -816,33 +823,81 @@ justify-content: center !important;
     }
 
     .sect{
-        font-size: 30px !important;
-        line-height: 30px !important;
-        margin-top: 0!important;
+        font-size: 25px !important;
+        line-height: 20px !important;
+        margin-top: 20px!important;
         margin-bottom: 20px !important;
+      
     }
+    
+    .sectt{
+        font-size: 25px !important;
+        line-height: 20px !important;
+        margin-top: -40px!important;
+        margin-bottom: 10px !important;
+      
+    }
+    
     .iimg{
         text-align: center !important;
         justify-content: center !important;
         align-items: center !important;
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 50px !important;
+    }
+    .headd{
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+    .heaad{
+        font-size: 25px !important;
+      margin-top: 40px !important;
     }
     
-.t-btn {
-	display: inline-block;
-	border: none;
-	font-size: 14px;
-	font-weight: 500;
-	min-width: 130px !important;
-	padding: 18px 15px;
-	border-radius: 50px !important;
-	text-transform: uppercase;
-	background: #fc0254;
-	color: #fff;
-	line-height: normal;
-	cursor: pointer;
-    text-align: center;
-    align-items: center !important;
-}
+    .t-btn {
+        background:rgb(35, 67, 161) !important;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 10px !important;
+        font-size: 12px !important;
+        width: 100px !important;
+        font-weight: 500;
+        border: 0;
+        border: 1px solid transparent;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        text-align: center;
+        color: #fff !important;
+        text-transform: capitalize;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        cursor: pointer;
+        border-radius: 2px !important;
+        list-style: none !important;
+        text-decoration: none !important;
+      }
+      
+    
+      .t-btn:hover {
+        border: 1px solid rgb(111, 93, 211);
+        color: rgb(0, 0, 0) !important;
+        background: transparent;
+      }
+    
+      .tobe{
+        font-size: 20px !important;
+        line-height: 25px !important;
+        margin-top: 10px !important;
+      }
+      .tope{
+          font-size: 10px !important;
+          margin-top: 5px !important;
+      }
+
 .car{
     
     
@@ -853,27 +908,30 @@ justify-content: center !important;
 
 .sub-text p{
     font-size: 14px !important;
-    line-height: 25px;
+    line-height: 20px !important;
+    margin-top: -5px !important;
 }
 .sub-text h2{
-    font-size: 30px !important;
-    line-height: 30px !important;
+    font-size: 22px !important;
+    line-height: 25px !important;
 }
 .sub-text h3{
-    font-size: 20px !important;
+    font-size: 15px !important;
     line-height: 30px !important;
+    margin-top: -5px !important;
 }
     .section-titles h2{
-        font-size: 30px !important;
-        line-height: 30px !important;
-        ;
+        font-size: 25px !important;
+        line-height: 15px !important;
+        
     }
         .sect-t{
-            font-size: 15px !important;
+            font-size: 10px !important;
             margin-top: 0px !important;
-            line-height: 30px !important;
-            ;
-}
+            line-height: 20px !important;
+        
+
 }
 
 
+}

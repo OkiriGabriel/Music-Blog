@@ -780,24 +780,38 @@ Commom elements
 
 
 .t-btn {
-	display: inline-block;
-	border: none;
-	font-size: 14px;
-	font-weight: 500;
-	min-width: 195px;
-	padding: 23px 20px;
-	border-radius: 50px;
-	text-transform: uppercase;
-	background: #fc0254;
-	color: #fff;
-	line-height: normal;
-	cursor: pointer;
-	text-align: center;
-}
 
-.t-btn:hover {
-	color: #fff;
-}
+    background:rgb(9, 17, 161);
+    color: #fff;
+    display: inline-block;
+    padding: 14px 38px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	cursor: pointer;
+	border-radius: 2px !important;
+	list-style: none !important;
+	text-decoration: none !important;
+  }
+  
+
+  .t-btn:hover {
+    border: 1px solid rgb(111, 93, 211);
+    color: rgb(0, 0, 0) !important;
+    background: transparent;
+  }
+
 
 @media (min-width: 1200px) {
 	.container {
