@@ -803,7 +803,7 @@ justify-content: center !important;
     }
 
     .news p{
-        font-size: 15px !important;
+        font-size: 14px !important;
         line-height: 35px !important;
     }
 
@@ -814,7 +814,12 @@ justify-content: center !important;
         width: 300px !important;
         height: 200px!important;
        align-items: center;
-    
+       margin-top: 10px !important;
+    }
+       .contact-warp {
+        padding: 100px 15px !important;
+        margin-left: 0px !important;
+	
     }
 
     .navbar{
@@ -833,7 +838,7 @@ justify-content: center !important;
     .sectt{
         font-size: 25px !important;
         line-height: 20px !important;
-        margin-top: -40px!important;
+        margin-top: -60px!important;
         margin-bottom: 10px !important;
       
     }
@@ -885,17 +890,18 @@ justify-content: center !important;
       .t-btn:hover {
         border: 1px solid rgb(111, 93, 211);
         color: rgb(0, 0, 0) !important;
-        background: transparent;
+        background: transparent !important;
       }
     
       .tobe{
-        font-size: 20px !important;
+        font-size: 15px !important;
         line-height: 25px !important;
         margin-top: 10px !important;
       }
       .tope{
           font-size: 10px !important;
           margin-top: 5px !important;
+          line-height: 20px !important;
       }
 
 .car{
@@ -907,7 +913,7 @@ justify-content: center !important;
 }
 
 .sub-text p{
-    font-size: 14px !important;
+    font-size: 10px !important;
     line-height: 20px !important;
     margin-top: -5px !important;
 }
@@ -922,8 +928,12 @@ justify-content: center !important;
 }
     .section-titles h2{
         font-size: 25px !important;
-        line-height: 15px !important;
-        
+        line-height: 30px !important;
+    }
+    .concept-section p{
+        font-size: 10px !important;
+        line-height: 20px !important;
+        margin-top: -10px !important;
     }
         .sect-t{
             font-size: 10px !important;
@@ -933,5 +943,6 @@ justify-content: center !important;
 
 }
 
-
 }
+
+
