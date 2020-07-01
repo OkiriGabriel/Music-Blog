@@ -797,9 +797,10 @@ color: #ffffff !important;
         background-image: url('assets/images/hero.jpg') !important;
     }
     .news{
-        text-align:center !important;
-        align-content: center !important;
-        justify-content: center !important;
+        text-align:left !important;
+        align-content: left !important;
+        justify-content: left !important;
+        
     }
 
     .news p{
@@ -811,10 +812,10 @@ color: #ffffff !important;
         font-size: 13px !important;
     }
     .imge{
-        width: 300px !important;
+        width: 100% !important;
         height: 200px!important;
        align-items: center;
-       margin-top: 10px !important;
+       margin-top: 60px !important;
     }
        .contact-warp {
         padding: 100px 15px !important;

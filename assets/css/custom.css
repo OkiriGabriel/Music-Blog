@@ -1089,6 +1089,24 @@ Responsive
     background: transparent !important;
 }
 
+#primary-btn {
+	font-size: 16px;
+	color: #fff ;
+	background: #e32879 ;
+	display: inline-block;
+	font-weight: 700;
+	padding: 12px 30px 10px;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+#primary-btn:hover{
+    border: 1px solid #e32879;
+    color: #000 !important;
+    background: transparent !important;
+}
 /*---------------------
   About Us Section
 -----------------------*/
@@ -1409,3 +1427,60 @@ width: 90%; }
 .img-fluidd {
 	width: 150px;
 	height: 100px; }
+
+	#more {display: none !important;}
+	
+	#mor {display: none;}
+	
+/* back-to-top */
+
+	#return-to-top {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.7);
+		width: 50px;
+		height: 50px;
+		display: block;
+		text-decoration: none;
+		-webkit-border-radius: 35px;
+		-moz-border-radius: 35px;
+		border-radius: 35px;
+		display: none;
+		-webkit-transition: all 0.3s linear;
+		-moz-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	#return-to-top i {
+		color: #fff;
+		margin: 0;
+		position: relative;
+		left: 16px;
+		top: 13px;
+		font-size: 19px;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	#return-to-top:hover {
+		background: rgba(0, 0, 0, 0.9);
+	}
+	#return-to-top:hover i {
+		color: #fff;
+		top: 5px;
+	}
+	.arrow{
+		position: relative;
+		height: 50px;
+		width: 45px;
+		align-items: center;
+		margin-left: 3px;
+		margin-top: -3px;
+		
+			
+	}

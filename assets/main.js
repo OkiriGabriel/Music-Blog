@@ -3,55 +3,17 @@
 ======================================*/
 
 
-'use strict';
 
-$(window).on('load', function() {
-	/*------------------
-		Preloder
-	--------------------*/
-	$(".loader").fadeOut();
-	$("#preloder").delay(400).fadeOut("slow");
-
-	if($('.playlist-area').length > 0 ) {
-		var containerEl = document.querySelector('.playlist-area');
-		var mixer = mixitup(containerEl);
-	}
-
-});
-
-(function($) {
-	/*------------------
-		Navigation
-	--------------------*/
-	$(".main-menu").slicknav({
-        appendTo: '.header-section',
-		allowParentLinks: true,
-		closedSymbol: '<i class="fa fa-angle-right"></i>',
-		openedSymbol: '<i class="fa fa-angle-down"></i>'
-	});
-	
-	$('.slicknav_nav').prepend('<li class="header-right-warp"></li>');
-    $('.header-right').clone().prependTo('.slicknav_nav > .header-right-warp');
-
-	/*------------------
-		Background Set
-	--------------------*/
-	$('.set-bg').each(function() {
-		var bg = $(this).data('setbg');
-		$(this).css('background-image', 'url(' + bg + ')');
-	});
-
-	
-	$('.hero-slider').owlCarousel({
-		loop: true,
-		nav: false,
-		dots: true,
-		mouseDrag: false,
-		animateOut: 'fadeOut',
-		animateIn: 'fadeIn',
-		items: 1,
-		autoplay: true
-	});
-
-})(jQuery);
-
+          // ===== Scroll to Top ==== 
+		  $(window).scroll(function() {
+			if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+				$('#return-to-top').fadeIn(200);    // Fade in the arrow
+			} else {
+				$('#return-to-top').fadeOut(200);   // Else fade out the arrow
+			}
+		});
+		$('#return-to-top').click(function() {      // When arrow is clicked
+			$('body,html').animate({
+				scrollTop : 0                       // Scroll to top of body
+			}, 500);
+		});
