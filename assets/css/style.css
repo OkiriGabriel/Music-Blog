@@ -871,7 +871,7 @@ color: #ffffff !important;
         line-height: 20px !important;
     }
     .heaad{
-        font-size:25px !important;
+        font-size:23px !important;
       margin-top: 40px !important;
     }
     
@@ -977,15 +977,11 @@ color: #ffffff !important;
         font-size: 25px !important;
         line-height: 30px !important;
     }
-    .concept-section p{
-        font-size: 10px !important;
-        line-height: 20px !important;
-        margin-top: -10px !important;
-    }
+  
         .sect-t{
-            font-size: 10px !important;
+            font-size: 17px !important;
             margin-top: 0px !important;
-            line-height: 20px !important;
+            line-height: 30px !important;
         
 
 }
@@ -1025,6 +1021,9 @@ color: #ffffff !important;
     }
     .blt a{
         color: #000 !important;
+    }
+    .bltt a{
+        color: #fff !important;
     }
 
 .articles{
