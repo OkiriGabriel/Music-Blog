@@ -1017,6 +1017,12 @@ color: #ffffff !important;
          font-size: 10px !important;
         
     }
+    .blpp{
+        margin-top: -20px !important;
+        margin-left: 90px !important;
+        text-align: left !important;
+         font-size:5px !important;
+    }
     .blt a{
         color: #000 !important;
     }
@@ -1026,5 +1032,12 @@ color: #ffffff !important;
 }
 .othernews{
     font-size: 20px !important;
+}
+.date{
+    margin-top: -5px !important;
+    margin-bottom: 10px !important;
+}
+.writer{
+    margin-top: -15px !important;
 }
 }
