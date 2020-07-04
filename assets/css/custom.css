@@ -1279,6 +1279,12 @@ dium screen : 992px. */
 		
 }
 
+
+
+.img-fluidd {
+	width: 150px;
+	height: 100px; }
+
 .tobee{
 	align-items: center !important;	
 	margin-left: 50px !important;	
@@ -1289,7 +1295,17 @@ dium screen : 992px. */
 }	
 .soul img{
 	align-items: center !important;
+
 	margin-left: 50px !important;	
+}
+.articles{
+	margin-top: 120px !important;
+}
+.newss{
+	margin-top: 0px !important;
+}
+.othernews{
+	text-align: center !important;
 }
 }
 
@@ -1637,3 +1653,6 @@ width: 90%; }
 width: 100% !important;
    }
 
+
+
+   
