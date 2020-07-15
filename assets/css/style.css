@@ -798,6 +798,10 @@ color: #ffffff !important;
         background-position: center center;
         
     }
+    .nav-link{
+        font-size: 26px;
+       font-weight: 500;
+    }
     .news{
         text-align:left !important;
         align-content: left !important;

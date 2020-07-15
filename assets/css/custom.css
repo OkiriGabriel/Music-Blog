@@ -1276,7 +1276,10 @@ dium screen : 992px. */
 	align-items: center !important;	
 		
 }
-
+.nav-link{
+	font-size: 26px;
+   font-weight: 100;
+}
 .tope{
 		align-items: center !important;	
 		
