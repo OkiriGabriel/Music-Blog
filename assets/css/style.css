@@ -788,13 +788,15 @@ color: #ffffff !important;
 }
 
 
-
 @media (max-width: 575px){
     .FFW{     
         text-align:center !important;
         align-content: center !important;
         justify-content: center !important;
-        background-image: url('assets/images/hero.jpg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
     }
     .news{
         text-align:left !important;
@@ -1039,4 +1041,23 @@ color: #ffffff !important;
 .writer{
     margin-top: -15px !important;
 }
+.navclass{
+    margin-left: -40px!important;
+}
+.nav-list{
+    margin-top: 25px !important;
+    align-items: center !important;
+    text-align: center;
+    margin-right: -25px!important;
+
+}
+.image {
+	width: 100% !important;
+	height:330px !important;
+	margin-top: 20px;
+	
+
+
+
+    }
 }

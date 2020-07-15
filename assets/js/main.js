@@ -79,3 +79,4 @@ videoHeight: false, // Default false; Type: Boolean/Number
 	
 })
 
+

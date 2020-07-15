@@ -22,16 +22,21 @@ background-color: #0b035b;
 }
 
 .brand--overlay{
-    background-color: rgba(20, 40, 80, 0.5);
+    background-color: rgba(20, 40, 80, 0.5) !important;
 }
 
 .auth--bx form{
 
     padding: 2rem 2.5rem;
-
-
 }
-
+.bg-blackk{
+	background-color: rgba(20, 40, 80, 0.5) !important;
+}
+.FFW{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 .frm--cstm .form-control{
 height: 48px;
 padding: 0.5rem 1.2rem;
@@ -1158,7 +1163,6 @@ dium screen : 992px. */
 
 .as-text {
 	padding-top: 30px;
-	padding-left: 20px;
 }
 
 .as-text.ap-text {
@@ -1311,6 +1315,13 @@ dium screen : 992px. */
 .othernews{
 	text-align: center !important;
 }
+.navclass{
+    margin-left: 0px!important;
+}
+.nav-list{
+	margin-top: 5px !important;
+	margin-left: -50px!important;
+
 }
 
 .soul{
@@ -1322,6 +1333,9 @@ dium screen : 992px. */
 	align-items: center;
 	width: 100%;
 	margin-left: 20px;
+}
+
+
 }
 /* Preloder */
 
@@ -1448,9 +1462,6 @@ Contact page
 	height: 177px;
 	margin-bottom: 57px;
 }
-
-
-
 
 
 /* Blog*/
@@ -1660,3 +1671,26 @@ width: 100% !important;
 
 
    
+
+
+
+
+
+
+
+
+   
+.featured-trending-video {
+	position: relative;
+	width: 100%;
+	height: 300px;
+margin-top: 40px; 
+
+}
+
+iframe{
+	border: none;
+	margin-top: 40px; 
+	height: 300px;
+	
+}
